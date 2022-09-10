@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class W1_IfElse {
+class W1_IfElse {
     // Java program to work with if-else statement
     /*
     * We will create a fizz-buzz program

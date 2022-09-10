@@ -1,4 +1,4 @@
-public class W1_Math {
+class W1_Math {
     // Java program to work with Math class
     public static void main(String[] args) {
         /*

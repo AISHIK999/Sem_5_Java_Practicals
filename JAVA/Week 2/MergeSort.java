@@ -3,13 +3,13 @@ import java.util.Scanner;
 
 class MergeSort {
     // The recursive merge sort function
-    static void mergesort(int arr[]) {
+    static void mergesort(int[] arr) {
         int n = arr.length;
         if (n < 2)
             return;
         int mid = n / 2;
-        int left[] = new int[mid];
-        int right[] = new int[n - mid];
+        int[] left = new int[mid];
+        int[] right = new int[n - mid];
         for (int i = 0; i < mid; i++)
             left[i] = arr[i];
         for (int i = mid; i < n; i++)
@@ -18,8 +18,9 @@ class MergeSort {
         mergesort(right);
         merge(arr, left, right);
     }
+
     //Merge the elements
-    public static void merge(int arr[], int left[], int right[]) {
+    public static void merge(int[] arr, int[] left, int[] right) {
         int nL = left.length;
         int nR = right.length;
         int i = 0, j = 0, k = 0;
@@ -44,15 +45,16 @@ class MergeSort {
             k++;
         }
     }
+
     // Driver code
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter no of terms");
         int n = sc.nextInt();
 
         System.out.println("Enter the terms");
-        int arr[] = new int[n];
+        int[] arr = new int[n];
         for (int i = 0; i < n; i++)
             arr[i] = sc.nextInt();
         mergesort(arr);

@@ -1,6 +1,6 @@
 import java.util.Scanner;   // Scanner scans the user input
 
-public class W1_UserInput {
+class W1_UserInput {
     // Java program to work with user inputs
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in);     // Create a new instance of teh Scanner class that will take in user inputs

@@ -1,4 +1,4 @@
-public class W1_TypeCasting {
+class W1_TypeCasting {
     //JAVA program that works with type casting
     public static void main(String[] args) {
         double a = 12.345;

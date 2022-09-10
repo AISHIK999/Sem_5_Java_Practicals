@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class W1_While {
+class W1_While {
     // Java program to work with while loop
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

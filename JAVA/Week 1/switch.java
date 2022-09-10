@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class W1_switch {
+class W1_switch {
     // Java program to use switch case
     // Same FizzBuzz problem with switch case
     public static void main(String[] args) {

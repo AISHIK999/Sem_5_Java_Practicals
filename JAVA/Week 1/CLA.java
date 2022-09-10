@@ -1,4 +1,4 @@
-public class W1_CLA {
+class W1_CLA {
     // JAVA program to use command line arguments
     public static void main(String[] args) {
         // Arguments need to be provided while running

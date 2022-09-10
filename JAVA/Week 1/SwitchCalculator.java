@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class W1_SwitchCalculator {
+class W1_SwitchCalculator {
     // Java program to create a basic calculator using switch case
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
